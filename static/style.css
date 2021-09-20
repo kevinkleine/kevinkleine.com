@@ -1,0 +1,262 @@
+body {
+    font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;ont-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
+    /*font-family: 'Lucida Console';*/
+    margin: 0;
+    padding: 40px;
+    font-size: 16px;
+}
+
+section {
+  margin-bottom: 45px;
+}
+
+.content-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.alizaImage {
+    margin: 0px;
+    order: 1;
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: 0px;
+}
+
+.photoCredit {
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+.quotebox {
+    margin-left: 20px;
+    width: 450px;
+    order: 2;
+}
+
+.quotes {
+    margin-left: 5px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+a {
+    color: #000;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ccc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #000;
+}
+
+a:visited {
+    color: #000;
+}
+
+.top {
+    display: flex;
+    flex-direction: row
+}
+
+.pageintro {
+    font-size: 14px;
+}
+
+.projectbox {
+    padding: 15px 0px 15px 0px;
+}
+
+.projectflex {
+    display: flex;
+    flex-direction: row;
+}
+
+.projectimage {
+    order: 1;
+    /*width: 500px;*/
+}
+
+.projectimage a {
+    border-bottom-width: 0px;
+    text-decoration: none;
+}
+
+.projectimage img {
+    -webkit-filter: grayscale(100%);
+    /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+    border-width: 1px;
+    border-color: #ccc;
+    border-style: solid;
+}
+
+.projectimage img:hover {
+    -webkit-filter: grayscale(0%);
+    /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.projectinfo {
+    order: 2;
+    width: 600px;
+    padding-left: 40px;
+}
+
+.projectinfo p {
+    margin-top: 0px;
+}
+
+ul {
+    padding: 0px;
+    font-size: 14px;
+}
+
+li {
+    display: inline;
+    padding-right: 10px;
+}
+
+h1 {
+    font-size: 34px;
+    margin-top: 0;
+}
+
+.intro > p {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+
+.copyright {
+    color: #bbb;
+    font-size: 14px;
+}
+
+.copyright a {
+    color: #bbb;
+}
+
+.pressbox p {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.articles {
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.project-container {
+  margin-bottom: 35px;
+}
+.project-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.project-title > a {
+  font-weight: bold;
+}
+
+.project-description {
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.winnings {
+  font-size: 14px;
+  margin-top: -10px;
+}
+
+.tutorial-image {
+    border: 4px solid black;
+    margin-bottom: 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.tutorial-gif {
+    max-width: 400px;
+}
+
+.tutorial-long {
+    max-width: 200px;
+}
+
+.blog > p {
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+
+.blog > .note {
+    font-size: 14px;
+}
+
+.blog > .dek {
+    font-size: 22px;
+}
+
+.blog li {
+    display: list-item;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.blog ul {
+    padding-inline-start: 40px;
+    margin-bottom: 40px;
+}
+
+.option-indented {
+    padding-left: 40px;
+}
+
+h3 > span {
+    font-weight: 400;
+    font-style: italic;
+}
+
+@media (max-width: 850px) {
+    body {
+        font-size: 14px;
+        padding: 20px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    li {
+        display: block;
+        padding: 5px 5px 5px 0;
+    }
+    .top {
+        flex-direction: column;
+    }
+    .projectflex {
+        flex-direction: column;
+    }
+    .quotebox {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .projectinfo {
+        margin-left: 0px;
+        margin-top: 10px;
+        padding-left: 0px;
+        width: 100%;
+    }
+}
