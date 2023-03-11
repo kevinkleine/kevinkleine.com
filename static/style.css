@@ -7,7 +7,12 @@ body {
     margin: 0;
     padding: 40px;
 }
-
+iframe {
+    margin-top: 100px;
+    width: 100%;
+    border-width: 0px;
+    height: 700px;
+}
 section {
   margin-bottom: 35px;
 }
@@ -76,7 +81,7 @@ h1 {
   margin-bottom: 30px;
 }
 
-.copyright {
+.copyright, .painting-tip {
     color: #bbb;
     font-size: 14px;
 }
@@ -85,6 +90,9 @@ h1 {
     color: #bbb;
 }
 
+.painting-tip {
+    text-align: center;
+}
 @media (max-width: 850px) {
     body {
         font-size: 1.0em;
