@@ -96,28 +96,26 @@ const fillers = [
     // solidColor,
     perlin,
     gradient,
-    gradient,
-    gradient,
     // hatching,
     // concentric,
     marker,
     // waves,
     // mosaic,
     // splatter
+
 ];
 
+console.log(fillers)
+
 const randomFiller = fillers => fillers[ rand.random_int(0,fillers.length - 1) ]
+console.log(randomFiller(fillers))
 const numberOfFillers = Math.random() > 0.9 ? 3 : 2;
 const selectedFillers = [
     ...Array.from({ length: numberOfFillers }, () => randomFiller(fillers)),
-    solidColor,
-    solidColor,
-    solidColor,
-    solidColor,
-    solidColor,
-    solidColor,
-    solidColor
+    ...(Array(20).fill(solidColor))    
 ];
+
+console.log(selectedFillers);
 
 const canvas = document.createElement('CANVAS');
 canvas.width = canvasSize;
